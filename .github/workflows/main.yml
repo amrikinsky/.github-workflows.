@@ -4,7 +4,7 @@
            setup:
             run-on: ubuntu-latest 
              steps: 
-               - run: ./setup_server.sh
+               - run:./setup_server.sh
            build:
              needs: setup
              runs-on: ubuntu-latest 
